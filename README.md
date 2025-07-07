@@ -1,12 +1,25 @@
-# React + Vite
+# React + Vite+ Router 
 
+# Dynamic Routing
+
+
+## Scenario
+You are tasked with building a small but feature-rich blog application. This will require you to implement a core feature of modern web applications: dynamic routing. You’ll create a system where a list of blog posts links to individual, dynamically generated pages for each post.
+
+Furthermore, you will implement a basic authentication system and create a “protected” admin area that is only accessible to logged-in users, a common requirement in real-world applications.
+
+This lab will give you hands-on experience with React Router and handling URL parameters.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Learning Objectives
+- Upon successful completion of this lab, you will be able to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Implement dynamic routes in React Router to generate pages from data.
+- Create a main “index” page that links to multiple dynamic detail pages.
+- Read and use route parameters (slugs or IDs) to fetch and display data for a specific page.
+- Structure a basic client-side authentication system using React Context.
+- Create a protected route that redirects unauthenticated users.
+- Conditionally render UI elements based on the user’s authentication status.
+- (Bonus) Implement simple animated page transitions.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author Asim Daud Khan
